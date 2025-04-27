@@ -1,8 +1,8 @@
-## FINA4350 Student Blog
+# FINA4350 Student Blog
 
   * This is the blog written by students taking the course FINA4350 in the second semester of the academic year 2024-2025 at the University of Hong Kong (HKU)
 
-  * The topics of FINA4350 are text analytics and natural language processing (NLP) in finance and fintech 
+  * The topics of FINA4350 are text analytics and natural language processing (NLP) in finance and fintech
 
   * The blog website is available at
     [buehlmaier.github.io/FINA4350-student-blog-2025-01](https://buehlmaier.github.io/FINA4350-student-blog-2025-01)
@@ -12,5 +12,9 @@
     [Elegant](https://github.com/Pelican-Elegant/elegant) theme
 
   * Run the following command to develop the blog locally on your
-    computer: `pelican content -t themes/elegant-5.4.0 --autoreload
+    computer:
+
+    `pip install pelican markdown`
+    
+    `pelican content -t themes/elegant-5.4.0 --autoreload
     --listen`
